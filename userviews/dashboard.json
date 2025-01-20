@@ -13,10 +13,10 @@
                     "userviewCacheScope": "",
                     "plugins": [],
                     "customFooter": "",
-                    "label": "<i class=\"fas fa-chart-pie\"><\/i> Procurement",
-                    "id": "962E2FED5B3140E305F989CAEDEDB087",
+                    "label": "<i class=\"fas fa-chart-pie\"><\/i> Analytics",
+                    "id": "6AE9D9DEB7C245F6222D0F32D3B3D584",
                     "enableOffline": "",
-                    "customId": "variant_8"
+                    "customId": "variant_7"
                 }
             }],
             "properties": {
