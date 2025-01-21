@@ -1,10 +1,83 @@
 {
     "elements": [
         {
+            "className": "org.joget.plugin.enterprise.HtmlCodeComponent",
+            "properties": {
+                "attr-data-events-listening": [],
+                "textContent": "<\/b>",
+                "id": "7A1B9E009F57453AB3635FB5F38E98E4",
+                "customId": ""
+            }
+        },
+        {
             "elements": [{
                 "elements": [
                     {
                         "elements": [
+                            {
+                                "elements": [
+                                    {
+                                        "elements": [{
+                                            "className": "org.joget.plugin.enterprise.HtmlCodeComponent",
+                                            "properties": {
+                                                "attr-data-events-listening": [],
+                                                "textContent": "<\/b>",
+                                                "id": "84DE5F238DEE45C3667D62FB99FE8AC9",
+                                                "customId": ""
+                                            }
+                                        }],
+                                        "className": "org.joget.apps.userview.lib.component.ColumnComponent",
+                                        "properties": {}
+                                    },
+                                    {
+                                        "elements": [],
+                                        "className": "org.joget.apps.userview.lib.component.ColumnComponent",
+                                        "properties": {}
+                                    },
+                                    {
+                                        "elements": [
+                                            {
+                                                "elements": [{
+                                                    "className": "org.joget.plugin.enterprise.HtmlCodeComponent",
+                                                    "properties": {
+                                                        "attr-data-events-listening": [],
+                                                        "textContent": "<\/b>",
+                                                        "id": "04A9591FC99A45F6C29780EAB6F20CC8",
+                                                        "customId": ""
+                                                    }
+                                                }],
+                                                "className": "org.joget.apps.userview.lib.component.ColumnComponent",
+                                                "properties": {"id": "12041947C5D84A841BE61DCF3AC874AD"}
+                                            },
+                                            {
+                                                "elements": [],
+                                                "className": "org.joget.apps.userview.lib.component.ColumnComponent",
+                                                "properties": {"id": "FA4FA3C5540D46282D2321BA1DF41299"}
+                                            }
+                                        ],
+                                        "className": "org.joget.apps.userview.lib.component.ColumnsComponent",
+                                        "properties": {
+                                            "gutter": "5px",
+                                            "columns": [
+                                                {"style-max-width": ""},
+                                                {"style-max-width": ""}
+                                            ],
+                                            "css-mobile-stack-columns": "true",
+                                            "id": "B64C0913B94740031F5E3DFE96673B2C"
+                                        }
+                                    }
+                                ],
+                                "className": "org.joget.apps.userview.lib.component.ColumnsComponent",
+                                "properties": {
+                                    "gutter": "5px",
+                                    "columns": [
+                                        {"style-max-width": ""},
+                                        {"style-max-width": ""}
+                                    ],
+                                    "css-mobile-stack-columns": "true",
+                                    "id": "2C1CC4DA638F49D7C04AA823453BD84B"
+                                }
+                            },
                             {
                                 "elements": [
                                     {
@@ -175,7 +248,7 @@
                                                 "attr-data-events-listening": [],
                                                 "color": "#348fe2",
                                                 "headerTag": "",
-                                                "style-custom": "padding: 10px; /* Keep some padding for aesthetics */\r\n        margin: 0 auto; /* Center the container */\r\n        border-radius: 15px;\r\n        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);\r\n        overflow: hidden; /* Prevent content from spilling out */",
+                                                "style-custom": "body {\r\n  margin-top: 10px;\r\n}\r\npadding: 10px; /* Keep some padding for aesthetics */\r\n        margin: 0 auto; /* Center the container */\r\n        border-radius: 15px;\r\n        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);\r\n        overflow: hidden; /* Prevent content from spilling out */",
                                                 "tagColor": "",
                                                 "icon": "<i class=\"fas fa-globe\"><\/i>",
                                                 "link": "",
@@ -309,7 +382,7 @@
                                                 "customHeader": "<h5>Manage Orders<\/h5>\n<style>\n    .dataList .pageBanner {\n        display:none;\n    }\n    .dataList .filters {\n        display:none;\n    }\n    .dataList .exportlinks {\n    display:none;\n    }\n<\/style>",
                                                 "style-custom": "padding: 10px; /* Keep some padding for aesthetics */\r\n        margin: 0 auto; /* Center the container */\r\n        border-radius: 15px;\r\n        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);\r\n        overflow: hidden; /* Prevent content from spilling out */",
                                                 "keyName": "",
-                                                "customFooter": "",
+                                                "customFooter": "<div style=\"height: 79px;\"><\/div>\n",
                                                 "label": "List",
                                                 "enableOffline": "",
                                                 "customId": "",
@@ -364,50 +437,28 @@
                             "elements": [{
                                 "elements": [{
                                     "elements": [{
-                                        "elements": [
-                                            {
-                                                "className": "org.joget.apps.userview.lib.DataListMenu",
-                                                "properties": {
-                                                    "cacheAllLinks": "",
-                                                    "customHeader": "<h5>Recent Transactions<\/h5>\n<style>\n    .dataList .pageBanner {\n        display:none;\n    }\n    .dataList .filters {\n        display:none;\n    }\n    .dataList .exportlinks {\n    display:none;\n    }\n<\/style>",
-                                                    "style-custom": "padding: 10px; /* Keep some padding for aesthetics */\r\n        margin: 0 auto; /* Center the container */\r\n        border-radius: 15px;\r\n        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);\r\n        overflow: hidden; /* Prevent content from spilling out */",
-                                                    "keyName": "",
-                                                    "customFooter": "",
-                                                    "label": "List",
-                                                    "enableOffline": "",
-                                                    "customId": "",
-                                                    "buttonPosition": "bothLeft",
-                                                    "datalistId": "list_recentTransactions",
-                                                    "checkboxPosition": "no",
-                                                    "selectionType": "multiple",
-                                                    "userviewCacheDuration": "20",
-                                                    "cacheListAction": "",
-                                                    "userviewCacheScope": "",
-                                                    "rowCount": "",
-                                                    "id": "35620B4F07684CDFBE57A560A615A76C"
-                                                }
-                                            },
-                                            {
-                                                "elements": [{
-                                                    "elements": [],
-                                                    "className": "org.joget.apps.userview.lib.component.ColumnComponent",
-                                                    "properties": {}
-                                                }],
-                                                "className": "org.joget.apps.userview.lib.component.ColumnsComponent",
-                                                "properties": {
-                                                    "attr-data-events-listening": [],
-                                                    "gutter": "5px",
-                                                    "columns": [{
-                                                        "style-mobile-max-width": "",
-                                                        "style-max-width": "",
-                                                        "style-tablet-max-width": ""
-                                                    }],
-                                                    "css-mobile-stack-columns": "true",
-                                                    "id": "3E5E65F0B21C43D1F237BBF0E46300CD",
-                                                    "customId": ""
-                                                }
+                                        "elements": [{
+                                            "className": "org.joget.apps.userview.lib.DataListMenu",
+                                            "properties": {
+                                                "cacheAllLinks": "",
+                                                "customHeader": "<h5>Recent Transactions<\/h5>\n<style>\n    .dataList .pageBanner {\n        display:none;\n    }\n    .dataList .filters {\n        display:none;\n    }\n    .dataList .exportlinks {\n    display:none;\n    }\n<\/style>",
+                                                "style-custom": "padding: 10px; /* Keep some padding for aesthetics */\r\n        margin: 0 auto; /* Center the container */\r\n        border-radius: 15px;\r\n        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);\r\n        overflow: hidden; /* Prevent content from spilling out */",
+                                                "keyName": "",
+                                                "customFooter": "<div style=\"height: 74px;\"><\/div>\n",
+                                                "label": "List",
+                                                "enableOffline": "",
+                                                "customId": "",
+                                                "buttonPosition": "bothLeft",
+                                                "datalistId": "list_recentTransactions",
+                                                "checkboxPosition": "no",
+                                                "selectionType": "multiple",
+                                                "userviewCacheDuration": "20",
+                                                "cacheListAction": "",
+                                                "userviewCacheScope": "",
+                                                "rowCount": "",
+                                                "id": "35620B4F07684CDFBE57A560A615A76C"
                                             }
-                                        ],
+                                        }],
                                         "className": "org.joget.apps.userview.lib.component.ColumnComponent",
                                         "properties": {
                                             "style-flex": "0 0 100%",
