@@ -444,7 +444,7 @@
                                                 "customHeader": "<h5>Recent Transactions<\/h5>\n<style>\n    .dataList .pageBanner {\n        display:none;\n    }\n    .dataList .filters {\n        display:none;\n    }\n    .dataList .exportlinks {\n    display:none;\n    }\n<\/style>",
                                                 "style-custom": "padding: 10px; /* Keep some padding for aesthetics */\r\n        margin: 0 auto; /* Center the container */\r\n        border-radius: 15px;\r\n        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);\r\n        overflow: hidden; /* Prevent content from spilling out */",
                                                 "keyName": "",
-                                                "customFooter": "<div style=\"height: 74px;\"><\/div>\n",
+                                                "customFooter": "",
                                                 "label": "List",
                                                 "enableOffline": "",
                                                 "customId": "",
